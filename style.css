@@ -1,0 +1,67 @@
+.container{
+    
+    margin-top:50px;
+    min-width:auto;
+    height:auto;
+    
+}
+
+
+.table{
+    width:100%;
+}
+
+th,td{
+    font-size:20px;
+    width:120px;
+    height:70px;
+}
+table,thead,tbody,th,td{
+    border:1px solid black;
+}
+
+li{
+    font-size: 15px;
+    color:seagreen;
+}
+#prev
+{
+    display:none;
+}
+#page
+{
+    font-size: 20px;
+}
+
+
+#numbers>li >a:hover
+{
+  background-color:silver !important;
+}
+
+#numbercol{
+   padding: 200px 0px;
+    display: flex;
+    min-width: 500px;
+    justify-content: center;
+}
+
+.row{
+    position: relative;
+}
+ 
+
+    @media screen and (min-width:770px) {
+        li
+        {
+            font-size: 20px;
+            color:seagreen;
+        }
+        #prev
+        {
+            display:inline;
+        }
+        
+        
+    } 
+
